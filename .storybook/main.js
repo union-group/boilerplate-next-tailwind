@@ -5,6 +5,7 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     'storybook-addon-next-router',
+    'storybook-addon-designs',
     {
       /**
        * NOTE: fix Storybook issue with PostCSS@8
@@ -13,17 +14,17 @@ module.exports = {
       name: '@storybook/addon-postcss',
       options: {
         postcssLoaderOptions: {
-          implementation: require('postcss')
-        }
-      }
-    }
+          implementation: require('postcss'),
+        },
+      },
+    },
   ],
   framework: '@storybook/react',
   core: {
-    builder: 'webpack5'
+    builder: 'webpack5',
   },
   webpackFinal: (config) => {
     config.resolve.modules.push(`${process.cwd()}/src`)
     return config
-  }
+  },
 }
