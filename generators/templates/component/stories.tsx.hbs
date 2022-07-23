@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { {{pascalCase name}} } from '.'
 
 export default {
-  title: '{{pascalCase name}}',
+  title: 'Components/{{pascalCase name}}',
   component: {{pascalCase name}},
    parameters: {
     design: {
@@ -17,3 +17,6 @@ const Template: ComponentStory<typeof {{pascalCase name}}> = (args) => (
 )
 
 export const Default = Template.bind({})
+Default.args = {
+  title: '{{pascalCase name}}'
+}
