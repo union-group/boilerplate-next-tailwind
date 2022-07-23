@@ -1,59 +1,38 @@
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![Union Group](https://res.cloudinary.com/dbnq26wqe/image/upload/v1644082143/others/LOGO_GRUPO_4-removebg-preview_k3ptag.png)
 
-This is a [Next.js](https://nextjs.org/) boilerplate using [TailwindCSS](https://tailwindcss.com/) and other cool stuff. Most of this is taught in [this course](https://reactavancado.com.br).
+Boilerplate utilizado pelos times de frontend, durante os projetos desenvolvidos pelo Union Group.
 
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+## O que é utilizado?
 
-## What is inside?
-
-This project uses lot of stuff as:
-
+- [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
+- [Sass](https://sass-lang.com/)
+- [Plop](https://github.com/plopjs/plop)
+- [Husky](https://typicode.github.io/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
+- [Git commit msg linter](https://github.com/legend80s/commit-msg-linter)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
-## Getting Started
+## Inciando
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm run start
+# ou
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Você pode começar a editar a página modificando `pages/Home/index.tsx`.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Comandos
 
-## Commands
+- `start`: Roda a aplicação em `localhost:3000`
+- `build`: Cria a versão de produção
+- `lint`: Executa o linter em todos os componentes e páginas
+- `generate`: Cria um novo componente ou página de forma automatizada
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `generate ComponentName`: to generate a component structure
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+## Gerando
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![plop demo](https://res.cloudinary.com/dbnq26wqe/image/upload/v1644175392/others/ezgif.com-gif-maker_rareme.gif)
